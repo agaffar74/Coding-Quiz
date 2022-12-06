@@ -1,4 +1,4 @@
-//store question text, options and answers in an array
+//Storing questions, options and answers in an array
 const questions = [
   {
     question: "When an operator’s value is NULL, the typeof returned by the unary operator is:",
@@ -68,7 +68,7 @@ const questions = [
   const resultDiv = document.querySelector("#result-div");
   const resultText = document.querySelector("#result-text");
   
-  //hiding result div
+  //Hiding result div
   function hideResultText() {
     resultDiv.style.display = "none";
   }
@@ -81,7 +81,7 @@ const questions = [
   document.querySelector("#start-button").addEventListener("click", startQuiz);
   
   function startQuiz() {
-    //Hide all visible cards if there is any and show the question card
+    //Hiding all visible cards if there is any and show the question card
     hideCards();
     questionCard.removeAttribute("hidden");
   
@@ -159,7 +159,7 @@ const questions = [
       }
     }
 
-  //Increment current question by 1
+    //Increment current question by 1
     currentQuestion++;
     // Then Displaying next question if we have not run out of questions, else end quiz
     if (currentQuestion < questions.length) {
@@ -292,6 +292,6 @@ const questions = [
     time = undefined;
     displayTime();
   
-    //Display scoreboard on scoreboard card
+    //Displaying scoreboard on scoreboard card
     renderscoreboard();
   }
