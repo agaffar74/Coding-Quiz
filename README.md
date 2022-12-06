@@ -4,6 +4,7 @@ This timed coding quiz with multiple-choice questions has been built using HTML,
 The main goal for this challenge is to build a timed coding quiz with multiple-choice questions using HTML & CSS as the foundation and powered by JavaScript & Web APIs. The user is presented with a series of questions to test their knowledge of JavaScript within 75 seconds. For every incorrect answer, 10 seconds is subtracted from the time remaining. Once all of the questions are answered or when the timer reaches 0, the user is then able to enter their initials and submit their score. 
 The scores keep getting added along with their initials and retrieved from local storage, and are displayed on a page.
 
+I have achieved better understanding of local storage and retrieval of records from storage through this challenge assignment.
 
 ## User Story
 AS A coding boot camp student
@@ -13,9 +14,7 @@ SO THAT I can gauge my progress compared to my peers
 ## Custom Features:
 * One HTML Page 
     * Index.html
-        * Contains landing page to start timer
-        * Appends two new pages
-        * Retreives local data from previous page
+ 
 * One CSS Page
     * Styles.css
         * Contains centering and styling for html list features
