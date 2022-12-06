@@ -2,7 +2,7 @@
 This timed coding quiz with multiple-choice questions has been built using HTML, CSS and javascript code.
 
 
-# User Story
+## User Story
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
@@ -31,13 +31,26 @@ SO THAT I can gauge my progress compared to my peers
         * Local Storage set and get
 * Also included
     * Timer-set time limit
-    * 5 JavaScript multiple choice questions
+    * 7 JavaScript multiple choice questions
     * Checking the answer and showing the correct answer
     * Local record-save user's initial and score to local
     * Highscore-check board
 
+## Code-Snippet 
+Javascript
 
-# Deployment
+Function to countdown time
+
+
+Function to start the quiz
+
+Function to set the scoreboard
+
+Function to sort the scoreboard list from highest to lowest
+
+
+
+## Deployment
 * Application GitHub URL submitted. GitHub repository contains all files including application codes.
 
     * The site is live at [GitHub:] (https://github.com/agaffar74/Coding-Quiz)
