@@ -27,7 +27,6 @@ const questions = [
     options: ["1. Commas", "2. Curly brackets", "3. Quotes", "4. Parentheses"],
     answer: "3. Quotes",
   },
-
   {
     question:
       "Which of the following methods is used to access HTML elements using Javascript?",
