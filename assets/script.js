@@ -5,7 +5,6 @@ const questions = [
     options: ["1. Object", "2. Booleans", "3. Undefined", "4. Integer"],
     answer: "1. Object",
   },
-
   {
     question: "Arrays in JavaScript can be used to store ______.",
     options: [
@@ -16,7 +15,6 @@ const questions = [
     ],
     answer: "4. All of the above",
   },
-
   {
     question: "Commonly used data types DO NOT include:",
     options: ["1. Strings", "2. Booleans", "3. Alerts", "4. Numbers"],
