@@ -37,26 +37,30 @@ SO THAT I can gauge my progress compared to my peers
     * Highscore-check board
 
 ## Code-Snippet 
-Javascript: 
+** Javascript: 
 
-Function to countdown time
+* Function to countdown time
 
-![image](https://user-images.githubusercontent.com/115975620/205883017-3919707a-595b-43ef-a86e-5b62ce767113.png)
-
-
-Function to start the quiz
-
-![image](https://user-images.githubusercontent.com/115975620/205883322-a3199a5f-24cb-41bf-838c-f13068a7f7a3.png)
+![image](https://user-images.githubusercontent.com/115975620/205885384-12afd83b-08ae-4800-9d12-a8f8f7f05f59.png)
 
 
-Function to set the scoreboard
 
-![image](https://user-images.githubusercontent.com/115975620/205883418-a2f6e320-8487-4d0a-bda6-007e793278ce.png)
+* Function to start the quiz
+
+![image](https://user-images.githubusercontent.com/115975620/205885469-82212bac-6236-4967-a949-36234ee150a2.png)
 
 
-Function to sort the scoreboard list from highest to lowest
 
-![image](https://user-images.githubusercontent.com/115975620/205883544-d9b82a9d-33d8-4ccc-a920-ff9caed68a48.png)
+* Function to set the scoreboard
+
+![image](https://user-images.githubusercontent.com/115975620/205885550-54a06ce6-6652-4326-b635-fce3d9abdc69.png)
+
+
+
+* Function to sort the scoreboard list from highest to lowest
+
+![image](https://user-images.githubusercontent.com/115975620/205885688-d65989fe-bc4b-4b72-9b64-8da1e77ee5f2.png)
+
 
 
 ## Deployment
