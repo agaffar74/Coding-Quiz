@@ -40,6 +40,7 @@ SO THAT I can gauge my progress compared to my peers
 Javascript
 
 Function to countdown time
+![image](https://user-images.githubusercontent.com/115975620/205883017-3919707a-595b-43ef-a86e-5b62ce767113.png)
 
 
 Function to start the quiz
