@@ -37,7 +37,7 @@ SO THAT I can gauge my progress compared to my peers
     * Highscore-check board
 
 ## Code-Snippet 
-Javascript
+Javascript: 
 
 Function to countdown time
 
