@@ -1,123 +1,160 @@
-/* Body Styles */
-
 body {
-  font-family: Verdana;
-  background-color: #ffffff;
-  margin: 0px;
-}
-
-/* Header Styles  */
+    font-family: Verdana;
+    background-color: #ffffff;
+    margin: 0px;
+  }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #226f98;
-  color: #ffffff;
-  padding: 5vh;
-}
-
-/* specify min-width for time element to give enough space for the span inside it to contain 3 digits without visibly moving the "time" text */
-
-time {
-  min-width: 100px;
-}
-
-/* Main Styles */
-
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Button Styles */
-
-.button {
-  display: block;
-  color: #ffffff;
-  background-color: #226f98;
-  padding: 2vh;
-  border-radius: 8px;
-  border: none;
-}
-
-.inline-buttons {
-  display: inline-flex;
-}
-
-/* Card Styles */
-
-.card {
-  max-width: 80%;
-  margin-top: 15vh;
-  border: solid;
-  border-width: 2px;
-  padding: 5vw;
-  border-radius: 25px;
-  border-color: lightgray;
-  box-shadow: 10px 5px 5px rgb(202, 201, 201);
-}
-
-/* Start Card Styles */
-
-#start-screen {
-  display: inline;
-  text-align: center;
-}
-
-/* Question Card Styles */
-
-.option-button {
-  width: 100%;
-  text-align: left;
-  margin: 5px;
-}
-
-#result-div {
-  display: none;
-}
-
-/* Score Card Styles */
-
-.inline-form {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-#initials {
-  width: 25%;
-  margin: 8px;
-  padding: 1vh;
-}
-
-/* Leaderboard Card Styles */
-
-#back-button {
-  margin-right: 8px;
-}
-
-.highscore-list {
-  padding-inline-start: 25px;
-}
-
-/* Media Queries */
-
-@media screen and (min-width: 850px) {
-  .card {
-    max-width: 680px;
-  }
-}
-
-/* Media query that specifies devices that can utilize hover */
-@media (hover) {
-  /* Stylings pertaining to hover pseudo-class*/
-  a:hover {
-    color: #cbe1e0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a4d7a;
+    color: #ffffff;
+    padding: 5vh;
   }
 
-  button:hover {
-    background-color: #092f43;
-    font-weight: bold;
-  }
+#wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 800px;
+    height: 500px;
+    border: 1px solid rgb(156, 162, 161);
+    box-shadow: 10px 5px 5px rgb(198, 195, 195);
+}
+#startQuiz {
+    background-color: #1a4d7a;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 10px 5px 5px rgb(198, 195, 195);
+}
+#questionsDiv {
+    margin: 20px;
+    font-size: 18px;
+}
+
+#currentTime {
+    float: right;
+}
+
+#goBack {
+    background-color: #1a4d7a;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 75%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#clear {
+    background-color: #1a4d7a;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: #1a4d7a;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 60%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: #226f98;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 90%;
+    font-size: 16px;
+    color: white;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+/* Start media queries */
+/* A Media Query max-width: 786px */
+@media screen and (max-width: 786px) {
+/* Resized content to fit 786px  */
+body {
+    max-width: 786px;
+}
+/* Resized main-content to fit 786px  */
+#wrapper {
+position: absolute;
+left: 20%;
+}
+
+
+a {
+margin-left: 20%;
+}
+#goBack {
+    
+    position: relative;
+    left: 55%;
+}
+
+#clear {
+    
+    position: relative;
+    right: 5%;
+    
+}
+}
+
+/* A Media Query max-width: 640px */
+@media screen and (max-width: 640px) {
+/* Resized content to fit 640px  */
+body {
+    min-width: 640px;
+}
+/* Resized main-content to fit 640px  */
+#wrapper {
+position: absolute;
+left: 10%;
+}
+
+a {
+  margin-left: 10%;
+}
+
+
 }
