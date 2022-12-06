@@ -20,7 +20,6 @@ const questions = [
     options: ["1. Strings", "2. Booleans", "3. Alerts", "4. Numbers"],
     answer: "3. Alerts",
   },
-
   {
     question:
       "String values must be enclosed within _____ when being assigned to variables.",
