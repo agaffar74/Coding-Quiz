@@ -13,8 +13,7 @@ SO THAT I can gauge my progress compared to my peers
 
 ## Custom Features:
 * One HTML Page 
-    * Index.html
- 
+    * Index.html 
 * One CSS Page
     * Styles.css
         * Contains centering and styling for html list features
